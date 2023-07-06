@@ -1,0 +1,73 @@
+.container {
+    background-color: white;
+
+    background-image: url("../../images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -140px;
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    width: 17rem;
+    padding: 5rem 0 1.5rem;
+    border-radius: 10px 10px 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: .5rem;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: .5rem;
+}
+
+p {
+    text-align: center;
+    width: 100%;
+}
+
+p.name {
+    font-weight: 700;
+}
+
+p.name span {
+    margin-left: .3rem;
+}
+
+.country, p.name span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+
+
+
+/* Stat Component */
+
+.stat-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 2rem;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.stat-container div p:first-child {
+    font-weight: 700;
+}
+
+.stat-container div p:last-child {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size: .7rem;
+}
